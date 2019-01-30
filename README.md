@@ -54,7 +54,7 @@ cd monitor-sagemaker-ml-with-ai-openscale
 
 ### 3. Create an AI OpenScale service
 
-* Using the [IBM Cloud Dashboard]() create an [AI OpenScale](https://console.bluemix.net/catalog/services/ai-openscale) service.
+* Using the [IBM Cloud Dashboard](https://console.bluemix.net/dashboard/apps) create an [AI OpenScale](https://console.bluemix.net/catalog/services/ai-openscale) service.
 * You will get the AI OpenScale instance GUID when you run the notebook using the [IBM Cloud CLI](https://console.bluemix.net/catalog/services/ai-openscale)
 
 ### 4. Run the notebooks
