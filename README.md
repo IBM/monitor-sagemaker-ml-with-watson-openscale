@@ -62,8 +62,8 @@ cd monitor-sagemaker-ml-with-ai-openscale
 #### There are 2 notebooks for this pattern. Begin by running [BreastCancerSageMaker.ipynb](notebooks/BreastCancerSageMaker.ipynb).
 
 * You will need to [setup AWS SageMaker]( https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html)
-* Insert you AWS credentials after the cell `Upload data to S3 Object Storage`.
-* Insert you AWS S3 `bucket_name` after the cell `2.4 Create an S3 bucket and use the name in the cell below for bucket_name`
+* Insert your AWS credentials after the cell `Upload data to S3 Object Storage`.
+* Insert your AWS S3 `bucket_name` after the cell `2.4 Create an S3 bucket and use the name in the cell below for bucket_name`
 * Move your cursor to each code cell and run the code in it. Read the comments for each cell to understand what the code is doing. **Important** when the code in a cell is still running, the label to the left changes to **In [\*]**:.
   Do **not** continue to the next cell until the code is finished running.
 
