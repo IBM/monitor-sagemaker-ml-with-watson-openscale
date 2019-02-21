@@ -32,7 +32,7 @@ When the reader has completed this Code Pattern, they will understand how to:
 # Steps
 
 1. [Clone the repository](#1-clone-the-repository)
-1. [Create a Compose for PostgreSQL DB](#2-create-a-compose-for-postgresql-db)
+1. [Create a Databases for PostgreSQL DB](#2-create-a-databases-for-postgresql-db)
 1. [Create a Watson OpenScale service](#3-create-a-watson-openscale-service)
 1. [Run the notebooks](#4-run-the-notebooks)
 
@@ -43,12 +43,9 @@ git clone https://github.com/IBM/monitor-sagemaker-ml-with-watson-openscale
 cd monitor-sagemaker-ml-with-watson-openscale
 ```
 
-### 2. Create a Compose for PostgreSQL DB
+### 2. Create a Databases for PostgreSQL DB
 
-* Using the [IBM Cloud Dashboard](https://console.bluemix.net/catalog) catalog, search for PostgreSQL and choose the `Compose for Postgres` service:
-
-![](doc/source/images/ChooseComposePostgres.png)
-
+* Using the [IBM Cloud Dashboard](https://console.bluemix.net/catalog) catalog, search for PostgreSQL and choose the `Databases for PostgreSQL` [service](https://console.bluemix.net/catalog/services/databases-for-postgresql).
 * Wait a couple of minutes for the database to be provisioned.
 * Click on the `Service Credentials` tab on the left and then click `New credential +` to create the service credentials. Copy them or leave the tab open to use later in the notebook.
 
@@ -83,7 +80,7 @@ ibmcloud resource service-instance <WatsonOpenScale_instance_name>
 ```
 
 * Enter the `instance_guid` and `apikey` in the next cell for the `WATSON_OS_CREDENTIALS`.
-* In the cell after that enter `POSTGRES_CREDENTIALS` using the value for the PostreSQL credentials from [Step #2](#2-create-a-compose-for-postgresql-db).
+* In the cell after that enter `POSTGRES_CREDENTIALS` using the value for the PostreSQL credentials from [Step #2](#2-create-a-databases-for-postgresql-db).
 * In the cell after `2.1 Bind SageMaker machine learning engine` enter your `SAGEMAKER_ENGINE_CREDENTIALS`.
 * After running `3.1 Add subscriptions` you will get a `source_uid` to enter in the cell that follows.
 * Move your cursor to each code cell and run the code in it. Read the comments for each cell to understand what the code is doing. **Important** when the code in a cell is still running, the label to the left changes to **In [\*]**:.
