@@ -156,8 +156,8 @@ ibmcloud iam api-key-create 'my_key'
 
 # Sample Output
 
-See the [example output for Predicting Breast Cancer](examples/BreastCancerSageMakerExampleOutput.ipynb)
-See the [example output for Working with SageMaker Machine Learning engine](examples/WatsonopenScaleSageMakerMLengineExampleOutput.ipynb)
+See the [example output for CreditModelSagemakerLinearLearner-with-outputs.ipynb](notebooks/with-output/CreditModelSagemakerLinearLearner-with-outputs.ipynb)
+See the [example output for AIOpenscaleSagemakerMLengine-with-output.ipynb](notebooks/with-output/AIOpenscaleSagemakerMLengine-with-output.ipynb)
 
 # License
 
