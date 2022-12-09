@@ -1,3 +1,7 @@
+# WARNING: This repository is no longer maintained
+
+> This repository will not be updated. The repository will be kept available in read-only mode.
+
 # Monitor Sagemaker ML With Watson OpenScale
 
 In this Code Pattern, we will use a German Credit dataset to create a logistic regression model using AWS SageMaker. We will use Watson OpenScale to bind the ML model deployed in the AWS cloud, create a subscription, and perform payload and feedback logging.
